@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaro's Logistics and Transportation Inc.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo da Amaro's Logistics and Transportation Inc.">
+        <nav>
+            <ul>
+                <li><a href="#missao">Missão</a></li>
+                <li><a href="#visao">Visão</a></li>
+                <li><a href="#valores">Valores</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="missao">
+        <h2>Missão</h2>
+        <p>Prover serviços de transporte e logística de alta qualidade, garantindo rapidez, segurança e excelência no atendimento ao cliente.</p>
+    </section>
+
+    <section id="visao">
+        <h2>Visão</h2>
+        <p>Ser reconhecida como referência em serviços de transporte e logística nos Estados Unidos, expandindo nossas operações para os principais mercados de delivery e frete.</p>
+    </section>
+
+    <section id="valores">
+        <h2>Valores</h2>
+        <ul>
+            <li>Qualidade</li>
+            <li>Segurança</li>
+            <li>Rapidez</li>
+            <li>Atendimento ao Cliente</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Amaro's Logistics and Transportation Inc. Todos os direitos reservados.</p>
+        <p>Telefone: 774-322-8622 | Email: <a href="mailto:danilo@amaroslogistics.com">danilo@amaroslogistics.com</a></p>
+    </footer>
+</body>
+</html>
